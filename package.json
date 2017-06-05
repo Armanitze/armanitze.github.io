@@ -1,27 +1,37 @@
 {
-  "name": "startbootstrap-grayscale",
-  "title": "Grayscale",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/grayscale",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
-  "devDependencies": {
-    "bootstrap": "^3.3.7",
-    "browser-sync": "^2.13.0",
-    "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
+  "name": "fullpage.js",
+  "version": "2.6.5",
+  "description": "Create  beautiful fullscreen scrolling websites",
+  "main": "jquery.fullPage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
-  }
+    "url": "git@github.com:alvarotrigo/fullPage.js.git"
+  },
+  "keywords": [
+    "jquery",
+    "scrolling",
+    "single_page",
+    "one_page",
+    "sliding"
+  ],
+  "files": [
+    "vendors",
+    "jquery.fullPage.css",
+    "jquery.fullPage.js",
+    "jquery.fullPage.scss",
+    "package.json",
+    "README.md"
+  ],
+  "authors": [
+    "Alvaro Trigo https://github.com/alvarotrigo"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvarotrigo/fullPage.js/issues"
+  },
+  "homepage": "https://github.com/alvarotrigo/fullPage.js",
+  "namespace": "$.fn.fullpage"
 }
